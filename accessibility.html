@@ -326,10 +326,15 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <h2>Standarden vi följer</h2>
 <p>Vi strävar efter att uppfylla <a href="https://www.w3.org/TR/WCAG22/" target="_blank" data-ext rel="noopener">Riktlinjer för tillgängligt webbinnehåll (WCAG) 2.2<span class="vh"> (öppnas i en ny flik)</span></a> på nivå AA och Apples och Googles riktlinjer för tillgängliga appar. Vi granskar nya funktioner under utvecklingen och rättar till problem så snart vi hittar dem.</p>
 <h2>I båda apparna</h2>
+<p>Beequation Kids och Beequation Pro finns inte i appbutikerna än. De lanseras den 1 november 2026, och det här avsnittet beskriver de versioner vi förbereder inför lanseringen.</p>
 <ul>
-<li><b>Skärmläsare:</b> apparna fungerar med VoiceOver på iPhone och iPad och TalkBack på Android. Varje ny fråga läses upp. Varje sexhörning anger sitt tal och sin plats (till exempel ”15, mittenraden, vänster”), och rätt och fel svar läses upp.</li>
-<li><b>Större text:</b> texten följer enhetens textstorlek och knapparna växer i stället för att klippa av ord.</li>
+<li><b>Skärmläsare:</b> apparna är byggda för VoiceOver på iPhone och iPad och TalkBack på Android. Varje knapp har en etikett, varje ny fråga läses upp, varje sexhörning anger sitt tal och sin plats (till exempel ”15, mittenraden, vänster”), och rätt och fel svar läses upp.</li>
+<li><b>Läs upp alla tal:</b> en knapp som läser upp hela vaxkakan, rad för rad.</li>
+<li><b>Resultatrad:</b> en textrad under spelplanen behåller det senaste meddelandet, så att den som använder skärmläsare eller punktskriftsdisplay kan gå tillbaka och läsa det igen.</li>
+<li><b>Stående och liggande:</b> apparna fungerar åt båda hållen, på telefoner och surfplattor.</li>
+<li><b>Större text:</b> texten följer enhetens textstorlek, upp till 200 % och mer, och knapparna växer i stället för att klippa av ord.</li>
 <li><b>Lättläst typsnitt:</b> du kan välja enhetens eget typsnitt med större avstånd mellan bokstäverna, vilket vissa personer med dyslexi tycker är lättare att läsa.</li>
+<li><b>Matte i lugn och ro:</b> en inställning för nivåer och övning med färre sexhörningar, ledtrådar på tallinjen och ingen klocka. I Beequation Kids visas små tal också som prickbilder.</li>
 <li><b>Röststyrning och kontaktstyrning:</b> knapparnas namn motsvarar den synliga texten och varje knapp är minst 44 × 44 punkter.</li>
 <li><b>Inte bara färg:</b> rätt och fel svar samt resultat visas även med bockar, kryss, tal och former.</li>
 <li><b>Kontrast:</b> texten uppfyller WCAG:s kontrastnivåer i ljust och mörkt läge. En inställning för hög kontrast förstärker färger och konturer för varje spelare.</li>
@@ -337,17 +342,25 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <li><b>Mörkt läge:</b> ljust, mörkt eller samma som på enheten.</li>
 <li><b>Minska rörelse:</b> lugnare animationer aktiveras automatiskt när minskad rörelse är påslagen på enheten.</li>
 <li><b>Inget ljud behövs:</b> ljud och musik är valfria; inget kräver att du hör dem.</li>
-<li><b>Mjuk återkoppling:</b> en lätt vibration vid tryck och ledtrådar när ett pussel är svårt.</li>
+<li><b>Vibration:</b> en kort vibration betyder rätt, två korta betyder försök igen och en lång (en kraftigare puls på iPhone) betyder att rundan är slut. Du kan stänga av den med reglaget Vibration.</li>
 </ul>
 <h2>I Beequation Pro</h2>
 <ul>
 <li><b>Utan tidtagning:</b> ett val döljer klockan i nivåerna och dagens pussel, så att du kan fokusera på rätt svar i stället för snabbhet. Blitz på 60 sekunder är alltid tidsbegränsat och visar det tydligt.</li>
+<li><b>Tidsbesked i Blitz:</b> återstående tid läses upp vid 30, 10 och 5 sekunder.</li>
 </ul>
 <h2>I Beequation Kids</h2>
 <ul>
 <li>Inga tidtagare eller nedräkningar: barnen får ta den tid de behöver.</li>
 <li>Indie kan läsa upp frågorna och sina meddelanden med enhetens röst för barn som fortfarande lär sig läsa.</li>
 <li>Före första spelet visar en kort guide ”Så spelar du” regeln med bilder.</li>
+</ul>
+<h2>I webbläsarspelet</h2>
+<p><a href="/play.html">Webbläsarspelet</a> har samma etiketter för skärmläsare, samma knapp Läs upp alla tal, samma resultatrad, samma vibrationsmönster (på enheter som stöder det) och samma tidsbesked i Blitz som apparna. Kids, nivåerna och dagens pussel har ingen klocka. Dessutom har det:</p>
+<ul>
+<li><b>Spela med tangentbord:</b> tryck på Tabb för att komma till spelplanen, använd piltangenterna för att flytta mellan sexhörningarna och tryck på Retur eller blanksteg för att välja en. Tryck på R för att läsa upp alla tal.</li>
+<li><b>Liggande layouter:</b> spelplanen och knapparna ordnas om när en telefon eller surfplatta vänds på sidan.</li>
+<li><b>Hjälp:</b> spelet har ett eget hjälpavsnitt som förklarar kontroller och inställningar.</li>
 </ul>
 <h2>Webbplatsens tillgänglighetsinställningar</h2>
 <p>Öppna Tillgänglighet i sidhuvudet eller telefonmenyn. Du kan välja text på 125% eller 150%, typsnitt för dyslexi, mer mellanrum, hög kontrast eller stoppa animationer. Ändringar gäller direkt. Återställ ger standardinställningarna. Animationer är av från början om din enhet ber om mindre rörelse.</p>
@@ -359,21 +372,32 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <li>Sidorna fungerar med tangentbord, med en synlig fokusmarkering och en länk ”Hoppa till innehållet”.</li>
 <li>Texten uppfyller WCAG:s kontrastnivåer i ljust och mörkt läge. Sidorna följer enhetens inställning.</li>
 <li>Bilder och illustrationer har textalternativ.</li>
+<li>Länkar till andra webbplatser öppnas i en ny flik och talar om det, även för skärmläsare.</li>
 <li>Det flygande biet är bara dekoration: det är dolt för skärmläsare, stannar aldrig mer än fem sekunder på skärmen och visas inte alls om minskad rörelse är aktiverat.</li>
-<li>Webbläsarspelet har samma etiketter och inställningar som apparna.</li>
 </ul>
 <h2>Arbetsblad och utskriftsmaterial</h2>
-<p>Alla arbetsblad finns som webbsida, standard-PDF, PDF med stor stil och läsvänlig PDF.</p>
-<p>Våra PDF-filer är taggade och innehåller textalternativ för bilder som förmedlar information.</p>
+<p>Alla arbetsblad finns som webbsida och som fyra PDF-filer: standard, stor stil, lättläst och taktil (för svällpapper).</p>
+<p>Våra PDF-filer är taggade, innehåller textalternativ för bilder som förmedlar information och kontrolleras mot tillgänglighetsstandarden PDF/UA.</p>
+<p>Arbetsbladen finns också som punktskriftsfiler, på alla språk utom japanska.</p>
 <p><a href="/learn/braille.html">Arbetsblad i punktskrift</a></p>
+<h2>Så testar vi</h2>
+<ul>
+<li>Automatiska tillgänglighetskontroller (axe-core) på varje engelsk sida och på ett urval av sidorna på andra språk.</li>
+<li>Varje PDF-fil kontrolleras med veraPDF.</li>
+<li>Layoutkontroller på skärmar som är 320 pixlar breda, med text i 200 % och med extra textavstånd.</li>
+<li>Varje appskärm ritas upp och kontrolleras med 2 och 3,2 gånger normal textstorlek, i stående och liggande läge.</li>
+</ul>
 <h2>Kända begränsningar</h2>
 <ul>
-<li>Apparna fungerar än så länge bara i stående läge. Vi planerar stöd för liggande läge, särskilt på iPad.</li>
+<li>Vi har ännu inte testat apparna med VoiceOver eller TalkBack på riktiga telefoner eller med punktskriftsdisplayer, och vi har ännu inte testat webbplatsen med NVDA eller JAWS i Windows.</li>
+<li>Vi söker blinda och dövblinda testare. Om du vill hjälpa till, kontakta oss via vår <a href="/support.html">hjälpsida</a>.</li>
+<li>Våra punktskriftsfiler skapas av en dator och har ännu inte korrekturlästs.</li>
 <li>Alla översättningar av webbplatsen och apparna har ännu inte granskats av personer med språket som modersmål.</li>
+<li>Versionerna av webbplatsen på hindi och indisk engelska är nya.</li>
 </ul>
 <h2>Berätta om ett problem</h2>
 <p>Om något är svårt att använda eller om du behöver information i ett annat format, kontakta oss via vår <a href="/support.html">hjälpsida</a>. Vi försöker svara inom två arbetsdagar och berättar hur och när vi ska lösa problemet.</p>
-<p>Det här uttalandet granskades senast den 12 oktober 2026.</p>
+<p>Det här uttalandet granskades senast den 13 oktober 2026.</p>
 </div></main><!--footer--><div class="wrap"><footer class="bqf"><div class="bqf-card"><div class="bqf-brand"><a class="bqf-logo" href="/"><img src="/assets/hexabee.svg" width="44" height="44" alt="">Beequation</a><p class="bqf-tag">Hitta talet som bildas av två andra.</p><a class="bqf-today" href="/today/"><i aria-hidden="true"></i>Dagens pussel</a></div><nav class="bqf-cols" aria-label="Beequation"><div><p class="bqf-h">Spela</p><ul><li><a href="/play.html">Spela online</a></li><li><a href="/how-to-play.html">Så spelar du</a></li><li><a href="/today/">Dagens pussel</a></li></ul></div><div><p class="bqf-h">Lär dig</p><ul><li><a href="/learn/">Översikt</a></li><li><a href="/teachers.html">Gratis pussel till din klass</a></li><li><a href="/blog/">Blogg</a></li></ul></div><div><p class="bqf-h">Hjälp &amp; info</p><ul><li><a href="/about.html">Om Beequation</a></li><li><a href="/support.html">Hjälp</a></li><li><a href="/privacy.html">Integritet</a></li><li><a href="/terms.html">Villkor</a></li><li><a href="/accessibility.html">Tillgänglighet</a></li><li><a href="/easy-read/how-to-play.html">Lättläst</a></li></ul></div></nav><div class="bqf-social"><p class="bqf-h">Följ kupan</p><ul class="bqf-comb"><li><a href="https://www.instagram.com/beequationapp" target="_blank" rel="noopener" aria-label="Instagram (öppnas i en ny flik)" title="Instagram"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.3 6.7h.01"/></svg></a></li><li><a href="https://www.tiktok.com/@beequationapp" target="_blank" rel="noopener" aria-label="TikTok (öppnas i en ny flik)" title="TikTok"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3.5v11a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3.5c.4 2.6 2.3 4.4 5 4.6"/></svg></a></li><li><a href="https://www.youtube.com/@beequationapp" target="_blank" rel="noopener" aria-label="YouTube (öppnas i en ny flik)" title="YouTube"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.2 9.3v5.4l4.6-2.7z" fill="currentColor"/></svg></a></li><li><a href="https://www.twitch.tv/beequationapp" target="_blank" rel="noopener" aria-label="Twitch (öppnas i en ny flik)" title="Twitch"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 3.5h15v10l-4.5 4.5h-3.5l-3 3v-3H4.5z"/><path d="M11 8v4M15.5 8v4"/></svg></a></li><li><a href="https://www.facebook.com/beequationapp" target="_blank" rel="noopener" aria-label="Facebook (öppnas i en ny flik)" title="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5H14a4 4 0 0 0-4 4V10H7.5v3.5H10v7h3.5v-7h2.6l.6-3.5h-3.2V8a1 1 0 0 1 1-1h1z"/></svg></a></li><li><a href="https://www.linkedin.com/company/beequationapp" target="_blank" rel="noopener" aria-label="LinkedIn (öppnas i en ny flik)" title="LinkedIn"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3.5"/><path d="M7.8 10.5v6M7.8 7.4h.01M11.5 16.5v-6M11.5 13.2c0-1.6 1-2.8 2.5-2.8s2.3 1 2.3 2.7v3.4"/></svg></a></li><li><a href="https://x.com/beequationapp" target="_blank" rel="noopener" aria-label="X (öppnas i en ny flik)" title="X"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4.2l11.8 16h-4.2z"/><path d="M19.6 4l-6.6 7.3M4.4 20l6.6-7.3"/></svg></a></li><li><a href="https://bsky.app/profile/did:plc:v7vs5upct4ovtvhrjaq3fzgx" target="_blank" rel="noopener" aria-label="Bluesky (öppnas i en ny flik)" title="Bluesky"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11.3C10.5 8.3 6.9 4.5 4.8 4.5 3.6 4.5 3 5.3 3 6.7c0 1.2.6 4.4 1.4 5.3 1.2 1.3 3.3 1.3 4.6 1-2.4.8-3.6 2.3-2.2 4 1.7 2 3.8 1 5.2-1.9 1.4 2.9 3.5 3.9 5.2 1.9 1.4-1.7.2-3.2-2.2-4 1.3.3 3.4.3 4.6-1 .8-.9 1.4-4.1 1.4-5.3 0-1.4-.6-2.2-1.8-2.2-2.1 0-5.7 3.8-7.2 6.8z"/></svg></a></li><li><a href="https://www.threads.com/@beequationapp" target="_blank" rel="noopener" aria-label="Threads (öppnas i en ny flik)" title="Threads"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.6"/><path d="M15.6 9v4.2a2.6 2.6 0 0 0 5.2 0V12a8.8 8.8 0 1 0-3.4 6.9"/></svg></a></li><li><a href="https://www.pinterest.com/beequationapp/" target="_blank" rel="noopener" aria-label="Pinterest (öppnas i en ny flik)" title="Pinterest"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 20.6l2.2-9"/><path d="M11 15.6c3 .8 5.6-1.3 5.6-4.3 0-2.6-2.1-4.4-4.7-4.4-3 0-5 2.1-5 4.6 0 1.1.4 2 1.1 2.6"/></svg></a></li></ul><img class="bqf-bee" src="/assets/hexabee.svg" width="46" height="46" alt="" loading="lazy"></div></div><p class="bqf-legal">Beequation görs av Trett Labs Limited, registrerat i England och Wales med bolagsnummer 17310137. Registrerad adress: The 1812 Building, Wheatley Park, Mirfield, West Yorkshire, WF14 8HE, United Kingdom. Kontakt: <a href="/support.html">supportsidan</a>. © 2026 Trett Labs Limited.</p></footer></div><!--/footer-->
 <!--nav--><script>// Measure the full, unwrapped pill, including font/spacing preferences and translated labels.
 window.bqHeaderFits=function(h){
